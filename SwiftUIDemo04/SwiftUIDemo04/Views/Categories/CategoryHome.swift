@@ -13,11 +13,13 @@ struct CategoryHome: View {
     var body: some View {
         NavigationView{
             List{
-                modelData.features[0].image
-                    .resizable()
-                    .scaledToFill()
-                    .frame(height: 200)
-                    .clipped()
+//                modelData.features[0].image
+//                    .resizable()
+//                    .scaledToFill()
+//                    .frame(height: 200)
+//                    .clipped()
+//                    .listRowInsets(EdgeInsets())
+                PageView(pages: ModelData().features.map{ FeatureCard(landmark: $0)}).aspectRatio( 3 / 2, contentMode: .fit).padding(0)
                     .listRowInsets(EdgeInsets())
                 
                 ForEach(modelData.categories.keys.sorted(),id:\.self){ key in
@@ -26,6 +28,7 @@ struct CategoryHome: View {
                 .listRowInsets(EdgeInsets())
             }
                 .navigationTitle("Featured")
+                .listStyle(.inset)//这个属性是把list 边距设置为0，
                 .toolbar {
                     Button {
                         showingProfile.toggle()

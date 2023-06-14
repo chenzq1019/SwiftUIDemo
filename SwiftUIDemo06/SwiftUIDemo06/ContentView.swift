@@ -8,14 +8,81 @@
 import SwiftUI
 
 struct ContentView: View {
+//    var lists: [String] = ["Text","TextField"]
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            List{
+                Section("基础控件") {
+                    NavigationLink {
+                        TextDemo(title: "Text")
+                    } label: {
+                        Text("Text")
+                    }
+                    NavigationLink {
+                        TextFieldDemo()
+                    } label: {
+                        Text("TextField")
+                    }
+                    NavigationLink {
+                        ImageDemo()
+                    } label: {
+                        Text("Image")
+                    }
+                    NavigationLink {
+                        ButtonDemo()
+                    } label: {
+                        Text("Button")
+                    }
+                    NavigationLink {
+                        PickerDemo()
+                    } label: {
+                        Text("Pick")
+                    }
+                }
+                Section("UIKit"){
+                    NavigationLink {
+                        WebViewDemo()
+                    } label: {
+                        Text("WKWebView")
+                    }
+                    
+                    NavigationLink {
+                        UIViewControlloerDemo(title:"UIViewController")
+                    } label: {
+                        Text("UIViewController")
+                    }
+                }
+                
+                Section("布局") {
+                    NavigationLink {
+                        HStackDemo()
+                    } label: {
+                        Text("HStack")
+                    }
+                    NavigationLink {
+                        ListDemo()
+                    } label: {
+                        Text("List")
+                    }
+                    NavigationLink{
+                        GridViewDemo(viewModel: EmojiMeoryGame())
+                    } label: {
+                        Text("GridView")
+                    }
+                }
+                Section("动画") {
+                    NavigationLink {
+                        AnimationDemo()
+                    } label: {
+                        Text("Animation")
+                    }
+                  
+                }
+      
+            }
+            .navigationTitle("Example")
         }
-        .padding()
+        
     }
 }
 

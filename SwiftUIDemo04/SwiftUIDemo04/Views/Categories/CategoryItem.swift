@@ -29,6 +29,6 @@ struct CategoryItem: View {
 struct CategoryItem_Previews: PreviewProvider {
     static let landmarks = ModelData().landmarks
     static var previews: some View {
-        CategoryItem(landmark: landmarks[0])
+        CategoryItem(landmark: landmarks[1])
     }
 }
