@@ -12,11 +12,23 @@ struct ContentView: View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
-                .foregroundColor(.accentColor)
+                .foregroundColor(.accentColor).onTapGesture {
+                    asyFuncTest()
+                }
             Text("Hello, world!")
         }
         .padding()
     }
+    func asyFuncTest(){
+        print("1111111")
+        Task {
+            print("22222222")
+        }
+        Task{ @MainActor in
+            print("33333333")
+        }
+    }
+
 }
 
 

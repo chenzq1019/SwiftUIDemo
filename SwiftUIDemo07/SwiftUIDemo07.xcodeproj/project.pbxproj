@@ -15,6 +15,11 @@
 		DF8531532A37FE9200FEB708 /* CaptionedPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8531522A37FE9200FEB708 /* CaptionedPhoto.swift */; };
 		DF8531552A38032C00FEB708 /* IfElseTrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8531542A38032C00FEB708 /* IfElseTrain.swift */; };
 		DF8531572A3804EE00FEB708 /* EventTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8531562A3804EE00FEB708 /* EventTile.swift */; };
+		DFEA4F7C2A39AB12004625EA /* LayoutouContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA4F7B2A39AB12004625EA /* LayoutouContainerView.swift */; };
+		DFEA4F7E2A39AC25004625EA /* SizingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA4F7D2A39AC25004625EA /* SizingView.swift */; };
+		DFEA4F802A39AECA004625EA /* AmazingAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA4F7F2A39AECA004625EA /* AmazingAlignment.swift */; };
+		DFEA4F822A39B1E4004625EA /* DebuggingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA4F812A39B1E4004625EA /* DebuggingViews.swift */; };
+		DFEA4F842A39B699004625EA /* MoodViewFull.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA4F832A39B699004625EA /* MoodViewFull.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +32,11 @@
 		DF8531522A37FE9200FEB708 /* CaptionedPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionedPhoto.swift; sourceTree = "<group>"; };
 		DF8531542A38032C00FEB708 /* IfElseTrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfElseTrain.swift; sourceTree = "<group>"; };
 		DF8531562A3804EE00FEB708 /* EventTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTile.swift; sourceTree = "<group>"; };
+		DFEA4F7B2A39AB12004625EA /* LayoutouContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutouContainerView.swift; sourceTree = "<group>"; };
+		DFEA4F7D2A39AC25004625EA /* SizingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizingView.swift; sourceTree = "<group>"; };
+		DFEA4F7F2A39AECA004625EA /* AmazingAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazingAlignment.swift; sourceTree = "<group>"; };
+		DFEA4F812A39B1E4004625EA /* DebuggingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingViews.swift; sourceTree = "<group>"; };
+		DFEA4F832A39B699004625EA /* MoodViewFull.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodViewFull.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +77,11 @@
 				DF8531522A37FE9200FEB708 /* CaptionedPhoto.swift */,
 				DF8531542A38032C00FEB708 /* IfElseTrain.swift */,
 				DF8531562A3804EE00FEB708 /* EventTile.swift */,
+				DFEA4F7B2A39AB12004625EA /* LayoutouContainerView.swift */,
+				DFEA4F7D2A39AC25004625EA /* SizingView.swift */,
+				DFEA4F7F2A39AECA004625EA /* AmazingAlignment.swift */,
+				DFEA4F812A39B1E4004625EA /* DebuggingViews.swift */,
+				DFEA4F832A39B699004625EA /* MoodViewFull.swift */,
 			);
 			path = SwiftUIDemo07;
 			sourceTree = "<group>";
@@ -151,6 +166,11 @@
 			files = (
 				DF8531572A3804EE00FEB708 /* EventTile.swift in Sources */,
 				DF8531532A37FE9200FEB708 /* CaptionedPhoto.swift in Sources */,
+				DFEA4F7E2A39AC25004625EA /* SizingView.swift in Sources */,
+				DFEA4F842A39B699004625EA /* MoodViewFull.swift in Sources */,
+				DFEA4F802A39AECA004625EA /* AmazingAlignment.swift in Sources */,
+				DFEA4F7C2A39AB12004625EA /* LayoutouContainerView.swift in Sources */,
+				DFEA4F822A39B1E4004625EA /* DebuggingViews.swift in Sources */,
 				DF8531552A38032C00FEB708 /* IfElseTrain.swift in Sources */,
 				DF8531512A3726BC00FEB708 /* KeywordBubble.swift in Sources */,
 				DF8531452A37267200FEB708 /* ContentView.swift in Sources */,
